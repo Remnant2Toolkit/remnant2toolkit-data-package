@@ -1,0 +1,23 @@
+{
+  "name": "remnant2toolkit-archetypes",
+  "version": "1.0.0",
+  "description": "A consumable package containing information on Remnant 2 archetypes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Remnant2Toolkit/remnant2toolkit-archetypes.git"
+  },
+  "keywords": [
+    "remnant2",
+    "remnant2toolkit"
+  ],
+  "author": "Josh Payette",
+  "license": "SEE LICENSE IN LICENSE.MD",
+  "bugs": {
+    "url": "https://github.com/Remnant2Toolkit/remnant2toolkit-archetypes/issues"
+  },
+  "homepage": "https://github.com/Remnant2Toolkit/remnant2toolkit-archetypes#readme"
+}
