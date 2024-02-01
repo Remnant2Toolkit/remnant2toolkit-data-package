@@ -2,9 +2,13 @@
   "name": "remnant2toolkit-archetypes",
   "version": "1.0.0",
   "description": "A consumable package containing information on Remnant 2 archetypes",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scope": "remnant2toolkit",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "tsc && ncp ./index.d.ts dist/index.d.ts && ncp ./UI_Icons_Archetype dist/UI_Icons_Archetype",
+    "publish": "npm publish --access public"
   },
   "repository": {
     "type": "git",
@@ -19,5 +23,9 @@
   "bugs": {
     "url": "https://github.com/Remnant2Toolkit/remnant2toolkit-archetypes/issues"
   },
-  "homepage": "https://github.com/Remnant2Toolkit/remnant2toolkit-archetypes#readme"
+  "homepage": "https://github.com/Remnant2Toolkit/remnant2toolkit-archetypes#readme",
+  "devDependencies": {
+    "ncp": "2.0.0",
+    "typescript": "5.3.3"
+  }
 }
