@@ -1,6 +1,6 @@
 {
-  "name": "remnant2toolkit-data-package",
-  "version": "0.0.1",
+  "name": "@remnant2toolkit/data",
+  "version": "0.0.2",
   "description": "A consumable package containing data and helper functions for Remnant 2.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
