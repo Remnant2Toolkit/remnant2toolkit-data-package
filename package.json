@@ -7,7 +7,7 @@
   "scope": "remnant2toolkit",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepublish": "tsc && ncp ./index.d.ts dist/index.d.ts",
+    "prepublish": "tsc && ncp index.d.ts dist/index.d.ts",
     "publish": "npm publish --access public"
   },
   "repository": {
